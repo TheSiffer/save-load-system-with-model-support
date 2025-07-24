@@ -14,3 +14,5 @@ The original project features a solid save and load system with the exception th
 Technical Explanation
 
 The GameData file is a container that contains multiple fields and is written and read from the save file. When in reality, a game will have multiple parts that need to individually store data like PreferenceData, PlayerData and many more. These have to then be wrapped in another container such that the structure is consistent and any other data types can be stored as well.  
+
+This save and load system will be built on top of the existing system and allows the developer to add as many data containers as they want and have the save and load system adjust automatically. 
